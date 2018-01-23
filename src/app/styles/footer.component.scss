@@ -1,0 +1,54 @@
+//---------------------------------
+// 1. VARIABLES
+//---------------------------------
+$clouds: #ecf0f1;
+$plava: #2980b9;
+$base: #000066;
+
+.title{
+    padding-left:10px;
+	color: $base;
+}
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%; 
+	width: 100%;
+	background: $clouds;
+	font-family: 'Allerta Stencil', sans-serif;
+
+//---------------------------------
+// 2. footer
+//---------------------------------
+	
+	.footer{
+		
+		overflow: auto;
+		background: white;
+		padding: 8px 6%;
+		height: 21px;
+		box-shadow: 0 1px 15px -5px gray;
+		.footer__title{
+            margin-left: 50%;
+            
+			text-decoration: none;
+			color: $plava;
+			font-size: 13px;
+		}
+		
+		
+	}
+//---------------------------------
+// 2. @MEDIA
+//---------------------------------
+	@media screen and (max-width: 720px){
+		.footer__title{
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		
+	}
+	
+}

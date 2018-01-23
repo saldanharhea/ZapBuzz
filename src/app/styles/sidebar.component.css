@@ -1,0 +1,51 @@
+.sidebar{
+    background-color: #000066;
+    box-shadow: 0 1px 15px  #888888;
+    color:white;
+    
+}
+
+.personal_info{
+    height: 38px;
+    padding: 10px ;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-align: center;
+   
+    font-size: 100%;
+    
+}
+
+.name{
+    
+    margin-bottom:30%;
+}
+
+.name .fa-cog{
+    text-shadow: 2px 3px #3f5c63;
+    
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+.profile_icon{
+    heigth:50px;
+    width:50px;
+}
+
+.icon_bar_pos{
+    margin-left: -8px;
+    margin-top: -7px;
+    margin-bottom: -10px;
+    display: inline-block;
+}
+
+.content{
+    display: inline-block;
+    margin-top: 1px;
+    margin-left:-7px;
+    
+    position: absolute;
+    
+    
+}
